@@ -24,21 +24,6 @@ Note: Datetime parsing is not nearly as important here as getting the average by
 using namespace std;
 
 int main() {
-
-/*
-	string line;
-
-	ifstream file ("log.txt");
-    file.open();
-
-	if (!file.fail()) {
-    
-    while (getline(file, line){
-    
-    
-    }
-
-*/
 	vector<string> log = {	"2017-02-01T20:00 OperationA Start",
 							"2017-02-01T20:01 OperationA End",
 							"2017-02-01T20:08 OperationB Start",
